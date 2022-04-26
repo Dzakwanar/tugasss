@@ -2,6 +2,11 @@
     font-family: 'Rajdhani', sans-serif;
     background-color: black;
 }
+
+.jumbotron{
+	padding: 2rem;
+	background-image: url(img/awl.jpg);
+}
 .carousel-caption h5 {
 	font-size: 35px;
 	letter-spacing: 9px;
