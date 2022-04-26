@@ -7,31 +7,8 @@
 	padding: 2rem;
 	background-image: url(img/awl.jpg);
 }
-.carousel-caption h5 {
-	font-size: 35px;
-	letter-spacing: 9px;
-	
-}
-
-.carousel-caption { 
-	bottom: 360px;
-	z-index: 2;
-}
-.carousel-inner {
-	max-height: 100vh;
-	min-height: 300px;
-}
-
-.carousel-caption p {
-	width: 60%;
-	margin: auto;
-	font-size: 18px;
-	line-height: 1.9;
-}
-
 .container{
     padding: 4rem;
-    
 }
 .row{
     padding: 2rem;
@@ -41,4 +18,11 @@
 		min-height: 400px;
 }
 
+#hoby{
+	padding-top: 4rem;
+}
+
+#contact{
+	padding-top: 2rem;
+}
 

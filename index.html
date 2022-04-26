@@ -16,10 +16,12 @@
     <!-- style css -->
     <link rel="stylesheet" href="style.css">
     <title>Dzakwan</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   </head>
   <body>
       <!-- AWAL NAVBAR -->
-      <nav class="navbar sticky-lg-top navbar-expand-lg navbar-dark ">
+      <nav class="navbar sticky-lg-top navbar-expand-lg navbar-dark fixed-top ">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Dzakwan</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,25 +50,17 @@
 
       <!-- Awal jumboard -->
 
-      <div class="jumbotron text-center"><br><br>
-        <img src="img/ft1.jpeg" alt="" width="200" class="rounded-circle img-thumbnail"><br><br>
-        <h1 class="display-4" style="color: white; font-family: Rajdhani;">Hi, i'am Muhammad Dzakwan</h1>
-        <p style="color: white;">web designer</p> <br><br>
-        <a class="btn btn-primary bg-gradient" style="color: white;" href="https://www.instagram.com/dzakwan_ar/" target="_blank">Follow Me</a>
-      </div>
-      <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active ">
-            <img src="img/awl.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <img src="img/ft1.jpeg" alt="" width="200" class="rounded-circle img-thumbnail" class="my-auto">
-              <h5>Hi,I’am Muhammad Dzakwan</h5>
-              <p>Web designer</p> <br>
-              <a class="btn btn-primary bg-gradient" style="color: white;" href="https://www.instagram.com/dzakwan_ar/" target="_blank">Follow Me</a>
-            </div>
-          </div>
+      <div class="jumbotron text-center">
+        <div class="container">
+          <img src="img/ft1.jpeg" alt="" width="200" class="rounded-circle img-thumbnail">
+          <h1 data-aos="fade-up"
+          data-aos-duration="3000" class="display-4 " style="color: white; font-family: Rajdhani;">Hi, i'am Muhammad Dzakwan</h1>
+          <p data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500" style="color: white;">web designer</p> <br>
+          <a class="btn btn-primary bg-gradient" style="color: white;" href="https://www.instagram.com/dzakwan_ar/" target="_blank">Follow Me</a>
         </div>
-      </div> -->
+      </div>
     <!-- akhir jumboard -->
 
     <!-- Awal about -->
@@ -74,20 +68,22 @@
         <div class="container-fluid " style="background-color:#3A3845;">
          <div class="row text-center">
              <div class="col-md" style="margin-top: 50px;">
-                 <h2 style="color: #00F4EE;">About Me</h2>
+                 <h2 data-aos="zoom-in" style="color: #00F4EE;">About Me</h2>
              </div>
          </div>
          <div class="row ">
              <div class="col-md-4">
-                 <img src="img/ft.jpeg" alt="dzn" width="200">
+                 <img data-aos="zoom-in-left" src="img/ft.jpeg" alt="dzn" width="200">
              </div>
              <div class="col-md-4">
-                 <p style="color: white; font-size: 150% ; font-family:Patrick hand; ">Nama saya  Muhammad Dzakwan Ar Rosyid,
+                 <p data-aos="fade-right"
+                 data-aos-offset="300"
+                 data-aos-easing="ease-in-sine" style="color: white; font-size: 150% ; font-family:Patrick hand; ">Nama saya  Muhammad Dzakwan Ar Rosyid,
                      saya anak pertama dari tiga bersaudara.umur
                      saya 20 Tahun,saya kuliah di Universitas 
                      Amikom Yogyakarta </p> <br> <br> 
  
-                 <p style="color: white; font-size: 150% ; font-family:Patrick hand; ">
+                 <p data-aos="zoom-out-down" style="color: white; font-size: 150% ; font-family:Patrick hand; ">
                      Saya tinggal di Yogyakarta.Saya merupakan
                      pribadi yang baik,sopan dan tidak sombong.
                      Saya juga masih jomblo
@@ -104,12 +100,12 @@
   <div class="container-fluid">
     <div class="row text-center">
       <div class="col">
-       <h2 id="hob" style="color: #00F4EE;">Hobby</h2>
+       <h2 data-aos="zoom-in" id="hob" style="color: #00F4EE;">Hobby</h2>
       </div>
   
   <div class="row">
   <div class="col-md-3 col-sm-6 mt-3 ">
-    <div class="card">
+    <div data-aos="fade-right" class="card">
       <img src="img/badminton.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <p class="card-text">dari kecil saya suka sekali badminton,karena dengan
@@ -119,7 +115,7 @@
   </div>
   
   <div class="col-md-3 col-sm-6 mt-3">
-    <div class="card">
+    <div data-aos="fade-right" class="card">
       <img src="img/bola.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <p class="card-text">saya juga suka bermain bola,saya pernah menang 
@@ -129,7 +125,7 @@
   </div>
   
   <div class="col-md-3 col-sm-6 mt-3 ">
-    <div class="card">
+    <div data-aos="fade-left" class="card">
       <img src="img/renang.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <p class="card-text">saya juga sennag barenang.dengan berenang tubuh saya berasa segar.
@@ -139,7 +135,7 @@
   </div>
 
   <div class="col-md-3 col-sm-6 mt-3 ">
-    <div class="card">
+    <div data-aos="fade-left" class="card">
       <img src="img/game.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <p class="card-text">saya juga suka bermain game,dengana bermain game pikiran menjadi senang </p>
@@ -160,29 +156,29 @@
     <div class="container-fluid">
       <div class="row text-center">
         <div class="col">
-          <h2 style="color: #00F4EE;">Contact</h2>
+          <h2 data-aos="zoom-in" style="color: #00F4EE;">Contact</h2>
         </div>
 
         <div class="row">
-          <div class="col-md-3 col-sm-6 mt-3 ">
+          <div data-aos="flip-left" class="col-md-3 col-sm-6 mt-3 ">
            <a href="https://www.facebook.com/alvaro.a.putra.94/ " target="_blank" > <img src="img/Facebook.png" class="card-img-top" alt="facebook"> </a>
             <br> <br>
             <p> <a style="color: #00F4EE;" href="https://www.facebook.com/alvaro.a.putra.94/" target="_blank" >Facebook</a> </p>
           </div>
 
-          <div class="col-md-3 col-sm-6 mt-3 ">
+          <div data-aos="flip-right" class="col-md-3 col-sm-6 mt-3 ">
             <a href="https://www.instagram.com/dzakwan_ar/" target="_blank" ><img src="img/Insgram.png" class="card-img-top" alt="instagram"> </a>
             <br> <br>
             <p> <a style="color: #00F4EE;" href="https://www.instagram.com/dzakwan_ar/" target="_blank" >Instagram</a> </p>
           </div>
 
-          <div class="col-md-3 col-sm-6 mt-3">
+          <div data-aos="flip-up" class="col-md-3 col-sm-6 mt-3">
             <a href="https://api.whatsapp.com/send?phone=6285806549406" target="_blank" > <img src="img/WA.png" class="card-img-top" alt="whatsapp"></a>
             <br> <br>
             <p> <a style="color: #00F4EE;" href="https://api.whatsapp.com/send?phone=6285806549406" target="_blank" >Whatsapp</a> </p>
           </div>
 
-          <div class="col-md-3 col-sm-6 mt-3 ">
+          <div data-aos="flip-down" class="col-md-3 col-sm-6 mt-3 ">
             <a href="https://twitter.com/Dzakwanaja" target="_blank"><img src="img/Twitter.png" class="card-img-top" alt="twitter"></a>
             <br> <br>
             <p> <a style="color: #00F4EE;" href="https://twitter.com/Dzakwanaja" target="_blank" >Twitter</a> </p>
@@ -202,6 +198,10 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
